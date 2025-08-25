@@ -15,29 +15,8 @@ This project allows users to play, pause, skip, and navigate through their playl
 ✅ Auto-play Next Song when the current track finishes  
 ✅ Attractive UI with album cover, song info, and smooth design
 
----
-
-## 📂 Project Structure
-
-music-player/
-│
-├── index.html # Main HTML file
-├── style.css # Styling (UI & layout)
-├── script.js # JavaScript functionality
-│
-├── songs/ # Folder containing all audio files (mp3)
-│ ├── Akcent - Stay With Me.mp3
-│ ├── Akcent - That's My Name (Ultra Music).mp3
-│ ├── Edward Maya & Vika Jigulina - Stereo Love.mp3
-│ └── Jennifer Lopez - On The Floor ft. Pitbull.mp3
-│
-├── img/ # Folder containing album cover images
-│ ├── stay-with-me-album.jpg
-│ ├── that's-my-name-album.jpg
-│ ├── stereo-love-album.jpg
-│ └── on-the-floor-album.jpg
-
----
+**📷 Screenshot**
+![](/img/ui.png)
 
 ## 🛠️ Technologies Used
 
@@ -95,8 +74,7 @@ music-player/
 
 1. **Clone the repository** or download the project files:
    ```bash
-   git clone https://github.com/your-username/music-player.git
-   cd music-player
+   git clone https://github.com/malika34/Music-player-js-project.git
    ```
 2. Add your music files to the songs/ folder.
 
