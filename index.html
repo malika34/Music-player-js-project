@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/music.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="player">
+        <!-- Top navigation -->
+        <div class="top-nav">
+            <button>&lt;</button>
+            <button id="menu">☰</button>
+        </div>
+
+        <!-- Album cover -->
+        <div class="album-cover">
+            <img id="cover" src="https://i.ibb.co/vY9K6gX/singer.jpg" alt="Album Cover">
+        </div>
+
+        <!-- Song info -->
+        <div class="song-title" id="title">Despacito</div>
+        <div class="artist" id="artist">Luis Fonsi Ft. Puerto Rican</div>
+
+        <!-- Progress bar -->
+        <div class="progress-container">
+            <input type="range" id="progress" value="0">
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button id="prev">&laquo;</button>
+            <button class="play" id="play">&#9658;</button>
+            <button id="next">&raquo;</button>
+        </div>
+
+        <!-- Hidden audio -->
+        <audio id="audio"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
